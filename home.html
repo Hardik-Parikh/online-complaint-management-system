@@ -7,34 +7,37 @@
   </head>
   <body>
     <!-- This page is intended for end users and so menus are according to that -->
-    <a href="#">Home</a><br />
-    <a href="activeComplaints.html">Active Complaints</a><br />
-    <a href="yourcomplaints.html">Your Complaints</a><br />
-    <a href="index.html">Sign out</a><br />
-    Register :
-    <table>
-      <tr>
-        <td><a href="eleccomplaint.html"> Electricity Related Complaint</a></td>
-      </tr>
-      <tr>
-        <td>
-          <a href="watercomplaint.html">Water supply related complaint</a>
-        </td>
-      </tr>
-      <tr>
-        <td><a href="sanitycomplaint.html">Sanity related complaint</a></td>
-      </tr>
-      <tr>
-        <td><a href="draincomplaint.html">Drainage related complaint</a></td>
-      </tr>
-      <tr>
-        <td><a href="roadcomplaint.html">Road related complaint</a></td>
-      </tr>
-      <tr>
-        <td>
-          <a href="streetlightcomplaint.html">Street light related complaint</a>
-        </td>
-      </tr>
-    </table>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="activeComplaints.html">Active Complaints</a></li>
+      <li><a href="yourComplaints.html">Your Complaints</a></li>
+      <li><a href="index.html">Sign out</a></li>
+    </ul>
+    Register new complaint:
+
+    <form>
+      <table>
+        <tr>
+          <th>
+            Select department of which complaint is:
+          </th>
+          <th>
+            <select name="complaintsDepartment" id="complaintsDepartment">
+              <option value="eleccomplaint"
+                >Electricity related complaint</option
+              >
+              <option value="watercomplaint">Water related complaint</option>
+              <option value="sanitycomplaint">Sanity related Complaint</option>
+              <option value="draincomplaint">Drainage related complaint</option>
+              <option value="roadcomplaint">Road related complaint</option>
+              <option value="streetlightcomplaint"
+                >Street light related complaint</option
+              >
+            </select>
+          </th>
+        </tr>
+        <tr></tr>
+      </table>
+    </form>
   </body>
 </html>
