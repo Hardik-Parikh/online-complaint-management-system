@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Complaints Page</title>
+  </head>
+  <body>
+    <div>
+      <ul>
+        <li><a href="deptHeadhome.html">Home</a></li>
+        <li><a href="login.html">Log out</a></li>
+      </ul>
+    </div>
+    <div>
+      <h1><i>Respective</i> Department</h1>
+    </div>
+    <div><h3>Following complaints are yet to be solved.</h3></div>
+    <div>
+      List of complaints yet to be solved will be here. For example,
+      <table>
+        <tr>
+          <th>Complaint ID</th>
+          <th>Description</th>
+          <th>Date added</th>
+          <th>Current Status</th>
+          <th>Change Status to</th>
+        </tr>
+        <tr>
+          <td>Five Digit unique ID</td>
+          <td>Description of complaint</td>
+          <td>15-7-2020</td>
+          <td><label for="CurrentStatus">Registered</label></td>
+          <td>
+            <select name="changeToStatus" id="changeToStatus"
+              ><option value="Verified">Verified</option>
+              <option value="InProcess">In Process</option>
+              <option value="Solved">Solved</option>
+            </select>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
